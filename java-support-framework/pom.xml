@@ -9,6 +9,7 @@
     </parent>
 
     <artifactId>java-support-framework</artifactId>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
