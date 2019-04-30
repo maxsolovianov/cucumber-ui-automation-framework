@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="759a118f-3ade-4d5b-8994-273e073b25e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java-appium-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-appium-framework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-selenium-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-selenium-framework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-support-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-support-framework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="759a118f-3ade-4d5b-8994-273e073b25e1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/java-selenium-framework/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="70">
+              <caret line="274" column="58" lean-forward="true" selection-start-line="274" selection-start-column="58" selection-end-line="274" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -50,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-appium-framework/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -64,6 +59,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>pom</find>
+      <find>finalName</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -72,10 +68,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/java-support-framework/pom.xml" />
         <option value="$PROJECT_DIR$/java-selenium-framework/pom.xml" />
         <option value="$PROJECT_DIR$/java-appium-framework/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -88,9 +84,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="144" />
-    <option name="y" value="1140" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="143" />
+    <option name="y" value="1141" />
     <option name="width" value="1539" />
     <option name="height" value="1000" />
   </component>
@@ -159,7 +155,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="144" y="1140" width="1539" height="1000" extended-state="1" />
+    <frame x="143" y="1141" width="1539" height="1000" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -189,13 +185,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-support-framework/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -214,6 +203,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="274" column="58" lean-forward="true" selection-start-line="274" selection-start-column="58" selection-end-line="274" selection-end-column="58" />
         </state>
       </provider>
     </entry>
