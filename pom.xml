@@ -5,14 +5,13 @@
     <groupId>com.github.maxsolovianov</groupId>
     <artifactId>cucumber-ui-automation-framework</artifactId>
     <version>1.0-SNAPSHOT</version>
-<!--    <packaging>pom</packaging>-->
+    <packaging>pom</packaging>
 
     <prerequisites>
         <maven>3.0.4</maven>
     </prerequisites>
 
     <modules>
-<!--        <module>java-appium-framework</module>-->
         <module>java-selenium-framework</module>
         <module>java-support-framework</module>
     </modules>

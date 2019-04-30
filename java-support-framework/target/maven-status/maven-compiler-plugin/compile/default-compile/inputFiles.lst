@@ -1,0 +1,9 @@
+/home/maksymsolovianov/github/cucumber-ui-automation-framework/java-support-framework/src/main/java/com/support/framework/base/AbstractBase.java
+/home/maksymsolovianov/github/cucumber-ui-automation-framework/java-support-framework/src/main/java/com/support/framework/support/Util.java
+/home/maksymsolovianov/github/cucumber-ui-automation-framework/java-support-framework/src/main/java/com/support/framework/hook/Hooks.java
+/home/maksymsolovianov/github/cucumber-ui-automation-framework/java-support-framework/src/main/java/com/support/framework/support/ThreadLocalMap.java
+/home/maksymsolovianov/github/cucumber-ui-automation-framework/java-support-framework/src/main/java/com/support/framework/support/ImageCompare.java
+/home/maksymsolovianov/github/cucumber-ui-automation-framework/java-support-framework/src/main/java/com/support/framework/support/Property.java
+/home/maksymsolovianov/github/cucumber-ui-automation-framework/java-support-framework/src/main/java/com/support/framework/support/CmdLine.java
+/home/maksymsolovianov/github/cucumber-ui-automation-framework/java-support-framework/src/main/java/com/support/framework/support/DataFactory.java
+/home/maksymsolovianov/github/cucumber-ui-automation-framework/java-support-framework/src/main/java/com/support/framework/base/DriverInterface.java

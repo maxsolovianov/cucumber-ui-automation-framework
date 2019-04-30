@@ -1,0 +1,6 @@
+/home/maksymsolovianov/github/cucumber-ui-automation-framework/java-selenium-framework/src/main/java/com/selenium/framework/core/SeleniumCukes.java
+/home/maksymsolovianov/github/cucumber-ui-automation-framework/java-selenium-framework/src/main/java/com/selenium/framework/driver/SeleniumDriverUtils.java
+/home/maksymsolovianov/github/cucumber-ui-automation-framework/java-selenium-framework/src/main/java/com/selenium/framework/base/AbstractSeleniumBase.java
+/home/maksymsolovianov/github/cucumber-ui-automation-framework/java-selenium-framework/src/main/java/com/selenium/framework/driver/TestCapabilities.java
+/home/maksymsolovianov/github/cucumber-ui-automation-framework/java-selenium-framework/src/main/java/com/selenium/framework/hook/Hooks.java
+/home/maksymsolovianov/github/cucumber-ui-automation-framework/java-selenium-framework/src/main/java/com/selenium/framework/base/SeleniumBase.java
