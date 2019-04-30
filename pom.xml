@@ -219,7 +219,6 @@
                         <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
                     </configuration>
                 </plugin>
-
                 <plugin>
                     <groupId>com.github.github</groupId>
                     <artifactId>site-maven-plugin</artifactId>
@@ -242,7 +241,6 @@
                         </execution>
                     </executions>
                 </plugin>
-
             </plugins>
         </pluginManagement>
         <plugins>
@@ -276,17 +274,15 @@
             </plugin>
         </plugins>
     </build>
-
-    <!--    <repositories>-->
-    <!--        <repository>-->
-    <!--            <snapshots>-->
-    <!--                <updatePolicy>always</updatePolicy>-->
-    <!--            </snapshots>-->
-    <!--            <id>cucumber-appium-java-mvn-repo</id>-->
-    <!--            <url>https://raw.github.com/maxsolovianov/cucumber-appium-java-framework/mvn-repo/</url>-->
-    <!--        </repository>-->
-    <!--    </repositories>-->
-
+        <repositories>
+            <repository>
+                <snapshots>
+                    <updatePolicy>always</updatePolicy>
+                </snapshots>
+                <id>cucumber-appium-java-mvn-repo</id>
+                <url>https://raw.github.com/maxsolovianov/cucumber-appium-java-framework/mvn-repo/</url>
+            </repository>
+        </repositories>
     <distributionManagement>
         <repository>
             <id>internal.repo</id>

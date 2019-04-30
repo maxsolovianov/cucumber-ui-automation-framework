@@ -16,7 +16,6 @@ import static com.support.framework.support.Property.GRID_URL;
 import static com.support.framework.support.Property.PLATFORM_NAME;
 import static com.support.framework.support.Property.SELENIUM_LOG;
 
-@Deprecated
 class TestCapabilities {
 
     private static final Logger LOG = Logger.getLogger(TestCapabilities.class);

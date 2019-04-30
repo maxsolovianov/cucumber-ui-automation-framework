@@ -23,7 +23,7 @@ public abstract class AbstractBase<T extends WebElement> {
 
     public AbstractBase(WebDriver driver) {
         this.driver = driver;
-        //LOG.info("Current Driver: " + driver);
+        LOG.info("Current Driver: " + driver);
     }
 
     public void assertElementNotPresent(T element) {

@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="759a118f-3ade-4d5b-8994-273e073b25e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-selenium-framework/java-selenium-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-selenium-framework/java-selenium-framework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-selenium-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-selenium-framework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-support-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-support-framework/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="759a118f-3ade-4d5b-8994-273e073b25e1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/java-selenium-framework/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -100,16 +93,6 @@
               <item name="cucumber-ui-automation-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="cucumber-ui-automation-framework" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cucumber-ui-automation-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumber-ui-automation-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="java-selenium-framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cucumber-ui-automation-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cucumber-ui-automation-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="java-support-framework" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -151,7 +134,7 @@
     <frame x="143" y="1141" width="1539" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2993972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -202,8 +185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

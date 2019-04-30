@@ -9,7 +9,6 @@
     </parent>
 
     <artifactId>java-support-framework</artifactId>
-    <!--    <packaging>pom</packaging>-->
 
     <dependencies>
         <dependency>
