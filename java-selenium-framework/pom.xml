@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>java-selenium-framework</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
