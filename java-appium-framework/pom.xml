@@ -9,7 +9,7 @@
     </parent>
 
     <artifactId>java-appium-framework</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <dependencies>
         <dependency>
