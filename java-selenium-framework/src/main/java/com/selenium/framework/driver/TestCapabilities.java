@@ -39,6 +39,8 @@ class TestCapabilities {
     private DesiredCapabilities getDesktopDesiredCapabilities() {
         LOG.info("Getting Desktop Capabilities");
         desiredCapabilities = new DesiredCapabilities();
+        desiredCapabilities.setCapability("platformName", PLATFORM_NAME);
+        desiredCapabilities.setCapability("browserName", BROWSER_NAME);
         desiredCapabilities.setCapability(CapabilityType.LOGGING_PREFS, loggingPreferences);
         return desiredCapabilities;
     }
