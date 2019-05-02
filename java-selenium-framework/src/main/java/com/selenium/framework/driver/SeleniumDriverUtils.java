@@ -54,7 +54,7 @@ class SeleniumDriverUtils {
     private WebDriver getWebDriver() {
         WebDriver driver;
         TestCapabilities testCapabilities = new TestCapabilities();
-        LOG.info("Initializing WebDriver");
+        LOG.info("Initializing WebDriver 111");
         if (GRID_USE.toString().equalsIgnoreCase("true")) {
             driver = new RemoteWebDriver(testCapabilities.getRemoteUrl(), testCapabilities.getRemoteDesiredCapabilities());
         } else {
