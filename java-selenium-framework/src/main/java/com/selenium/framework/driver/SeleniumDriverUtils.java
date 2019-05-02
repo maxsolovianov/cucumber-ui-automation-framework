@@ -56,7 +56,7 @@ class SeleniumDriverUtils {
         TestCapabilities testCapabilities = new TestCapabilities();
         LOG.info("Initializing WebDriver");
         if (GRID_USE.toString().equalsIgnoreCase("true")) {
-            driver = new RemoteWebDriver(testCapabilities.getRemoteUrl(), testCapabilities.getDesiredCapabilities());
+            driver = new RemoteWebDriver(testCapabilities.getRemoteUrl(), testCapabilities.getRemoteDesiredCapabilities());
         } else {
             switch (BROWSER_NAME.toString().toLowerCase()) {
                 case "chrome":

@@ -36,6 +36,14 @@ class TestCapabilities {
         }
     }
 
+    DesiredCapabilities getRemoteDesiredCapabilities() {
+        LOG.info("Getting Remote Capabilities");
+        desiredCapabilities = new DesiredCapabilities();
+        desiredCapabilities.setCapability("platformName", PLATFORM_NAME);
+        desiredCapabilities.setCapability("browserName", BROWSER_NAME);
+        return desiredCapabilities;
+    }
+
     private DesiredCapabilities getDesktopDesiredCapabilities() {
         LOG.info("Getting Desktop Capabilities");
         desiredCapabilities = new DesiredCapabilities();
