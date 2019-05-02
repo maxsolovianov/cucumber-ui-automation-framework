@@ -2,6 +2,7 @@ package com.selenium.framework.driver;
 
 import com.support.framework.support.Property;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.logging.LogType;
 import org.openqa.selenium.logging.LoggingPreferences;
 import org.openqa.selenium.remote.CapabilityType;
@@ -37,10 +38,11 @@ class TestCapabilities {
     }
 
     DesiredCapabilities getRemoteDesiredCapabilities() {
-        LOG.info("Getting Remote Capabilities");
+        LOG.info("Getting Remote Capabilities 222");
         desiredCapabilities = new DesiredCapabilities();
-        desiredCapabilities.setCapability("platformName", PLATFORM_NAME);
-        desiredCapabilities.setCapability("browserName", BROWSER_NAME);
+        desiredCapabilities.setPlatform(Platform.LINUX);//Grid воспринимает Windows-7 как Vista
+        desiredCapabilities.setBrowserName("chrome");
+        desiredCapabilities.setVersion("74.0.3729.108");
         return desiredCapabilities;
     }
 
