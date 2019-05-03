@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43c72567-35a9-4417-9f4f-173c733bd1b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java-selenium-framework/src/main/java/com/selenium/framework/driver/TestCapabilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-selenium-framework/src/main/java/com/selenium/framework/driver/TestCapabilities.java" afterDir="false" />
-    </list>
+    <list default="true" id="43c72567-35a9-4417-9f4f-173c733bd1b9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/java-support-framework/target/" />
     <ignored path="$PROJECT_DIR$/java-selenium-framework/target/" />
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java-selenium-framework/src/main/java/com/selenium/framework/driver/TestCapabilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+            <state relative-caret-position="330">
+              <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -231,17 +229,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="108" y="36" width="1539" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983256" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -270,8 +267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-selenium-framework/src/main/java/com/selenium/framework/driver/TestCapabilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        <state relative-caret-position="330">
+          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
         </state>
       </provider>
     </entry>
