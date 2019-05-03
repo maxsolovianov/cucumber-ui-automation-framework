@@ -40,7 +40,6 @@ class TestCapabilities {
     DesiredCapabilities getRemoteDesiredCapabilities() {
         LOG.info("Getting Remote Capabilities 555");
         desiredCapabilities = new DesiredCapabilities();
-        desiredCapabilities.setPlatform(Platform.LINUX);//Grid воспринимает Windows-7 как Vista
         desiredCapabilities.setBrowserName("chrome");
         desiredCapabilities.setVersion("latest");
         desiredCapabilities.setCapability("enableVNC", true);
