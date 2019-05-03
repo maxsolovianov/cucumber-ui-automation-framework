@@ -42,8 +42,10 @@ class TestCapabilities {
         desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setPlatform(Platform.LINUX);//Grid воспринимает Windows-7 как Vista
         desiredCapabilities.setBrowserName("chrome");
-        desiredCapabilities.setVersion("74.0.3729.108");
-        desiredCapabilities.setCapability("maxInstances", 3);
+        desiredCapabilities.setVersion("latest");
+        desiredCapabilities.setCapability("enableVNC", true);
+        desiredCapabilities.setCapability("enableVideo", false);
+
 
         return desiredCapabilities;
     }
