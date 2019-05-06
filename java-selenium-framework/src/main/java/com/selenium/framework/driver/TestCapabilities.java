@@ -43,7 +43,7 @@ class TestCapabilities {
         desiredCapabilities.setBrowserName("chrome");
         desiredCapabilities.setVersion("latest");
         desiredCapabilities.setCapability("enableVNC", true);
-        desiredCapabilities.setCapability("enableVideo", false);
+        desiredCapabilities.setCapability("enableVideo", true);
 
 
         return desiredCapabilities;
