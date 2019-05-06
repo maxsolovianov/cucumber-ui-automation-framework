@@ -27,6 +27,9 @@ public enum Property {
 
     //Selenium Specific
     BROWSER_NAME(Optional.ofNullable(System.getProperty("browser.name")).orElse("Chrome")),
+    BROWSER_VERSION(System.getProperty("browser.version")),
+    ENABLE_VNC(Optional.ofNullable(System.getProperty("enable.vnc")).orElse("false")),
+    ENABLE_VIDEO(Optional.ofNullable(System.getProperty("enable.video")).orElse("false")),
     BASE_URL(System.getProperty("base.url")),
     GRID_URL(System.getProperty("grid.url")),
     GRID_USE(System.getProperty("grid.use")),

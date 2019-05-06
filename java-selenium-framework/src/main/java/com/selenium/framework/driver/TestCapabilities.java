@@ -12,10 +12,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.logging.Level;
 
-import static com.support.framework.support.Property.BROWSER_NAME;
-import static com.support.framework.support.Property.GRID_URL;
-import static com.support.framework.support.Property.PLATFORM_NAME;
-import static com.support.framework.support.Property.SELENIUM_LOG;
+import static com.support.framework.support.Property.*;
 
 class TestCapabilities {
 
@@ -38,14 +35,12 @@ class TestCapabilities {
     }
 
     DesiredCapabilities getRemoteDesiredCapabilities() {
-        LOG.info("Getting Remote Capabilities 555");
+        LOG.info("Getting Remote Capabilities for Selenium Hub");
         desiredCapabilities = new DesiredCapabilities();
-        desiredCapabilities.setBrowserName("chrome");
-        desiredCapabilities.setVersion("latest");
-        desiredCapabilities.setCapability("enableVNC", true);
-        desiredCapabilities.setCapability("enableVideo", true);
-
-
+        desiredCapabilities.setBrowserName(BROWSER_NAME.toString());
+        desiredCapabilities.setVersion(BROWSER_VERSION.toString());
+        desiredCapabilities.setCapability("enableVNC", ENABLE_VNC);
+        desiredCapabilities.setCapability("enableVideo", ENABLE_VIDEO);
         return desiredCapabilities;
     }
 
