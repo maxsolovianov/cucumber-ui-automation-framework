@@ -39,8 +39,8 @@ class TestCapabilities {
         desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setBrowserName(BROWSER_NAME.toString());
         desiredCapabilities.setVersion(BROWSER_VERSION.toString());
-        desiredCapabilities.setCapability("enableVNC", ENABLE_VNC);
-        desiredCapabilities.setCapability("enableVideo", ENABLE_VIDEO);
+        desiredCapabilities.setCapability("enableVNC", ENABLE_VNC.toBoolean());
+        desiredCapabilities.setCapability("enableVideo", ENABLE_VIDEO.toBoolean());
         return desiredCapabilities;
     }
 
